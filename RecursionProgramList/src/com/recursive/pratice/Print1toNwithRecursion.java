@@ -15,6 +15,5 @@ public class Print1toNwithRecursion {
 		print1ToNwithRecursion(n - 1);
 		// induction
 		System.out.println(n);
-
 	}
 }
