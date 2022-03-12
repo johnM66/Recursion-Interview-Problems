@@ -3,7 +3,7 @@ package com.recursive.pratice;
 public class SumOfDigitsNumber {
 
 	public static void main(String[] args) {
-		int n = 121257912;
+		int n = 65;
 		System.out.println(sumofDigit(n));
 
 	}
