@@ -14,6 +14,7 @@ public class SumOfDigitsNumber {
 			return n;
 		int rem = n % 10;
 		int div = n / 10;
+		//induction and hypothesis
 		return rem + sumofDigit(div);
 
 	}
