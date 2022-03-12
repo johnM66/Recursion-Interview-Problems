@@ -13,7 +13,7 @@ public class Print1toNwithRecursion {
 			return;
 		// hypothesis term
 		print1ToNwithRecursion(n - 1);
-		// induction
+		// induction term
 		System.out.println(n);
 	}
 }
