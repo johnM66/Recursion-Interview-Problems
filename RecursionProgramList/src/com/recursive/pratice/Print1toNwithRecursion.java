@@ -1,5 +1,6 @@
 package com.recursive.pratice;
 
+
 public class Print1toNwithRecursion {
 	public static void main(String[] args) {
 		int n = 10;
