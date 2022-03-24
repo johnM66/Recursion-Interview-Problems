@@ -6,7 +6,19 @@ public class ReverseNumberUsingRecursion {
 	public static void main(String[] args) {
 		int number = 5696;
 		// reverse number is 8965
+		int digits = (int) Math.log10(number)+1;
 		System.out.println(reverseNumber(number));
+		System.out.println(alternativeApproach(number,digits));
+
+	}
+
+	private static int alternativeApproach(int number, int digits) {
+		// base case
+		if (number % 10 == number)
+			return number;
+			int rem = number%10;
+			//hypothesis and induction
+		return rem * (int)(Math.pow(10, digits-1)) + alternativeApproach(number / 10,digits-1);
 
 	}
 
