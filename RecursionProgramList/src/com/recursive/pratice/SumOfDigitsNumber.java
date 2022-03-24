@@ -9,7 +9,7 @@ public class SumOfDigitsNumber {
 	}
 
 	private static int sumofDigit(int n) {
-		// base case
+		// base case 
 		if (n == 1 || n == 0)
 			return n;
 		int rem = n % 10;
