@@ -18,7 +18,7 @@ public class SortAnArray {
 	private static void sortingArrayUsingRecursion(List<Integer> list) {
 
 		//base case
-		if(list.size()<=1)
+		if(list.size()<1)
 			return;
 		//design hypothesis
 		int val = (int) list.get(list.size()-1);
