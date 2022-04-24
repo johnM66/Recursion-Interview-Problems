@@ -15,8 +15,6 @@ public class PrintSubSets {
 		String output = "";
 		solve(sub, output);
 		System.out.println(list);
-		
-
 	}
 
 	private static void solve(String sub, String output) {
