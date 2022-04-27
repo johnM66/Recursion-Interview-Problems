@@ -11,7 +11,7 @@ import java.util.List;
 public class PrintSubSets {
 	static List<String> list = new ArrayList<>();
 	public static void main(String[] args) {
-		String sub="abc";
+		String sub="ABC";
 		String output = "";
 		solve(sub, output);
 		System.out.println(list);
