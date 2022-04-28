@@ -3,7 +3,7 @@ package com.recursive.pratice;
 public class PermutationWithCaseChange {
 
 	public static void main(String[] args) {
-		String input="ab";
+		String input="abc";
 		String output="";
 				
 		solve(input,output);
